@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.apache:groovy:master-SNAPSHOT'
+    compile 'com.github.apache:groovy:master-SNAPSHOT' // See https://jitpack.io/#apache/groovy
     testCompile 'junit:junit:4.12'
 }
 
@@ -41,3 +41,4 @@ configurations.all {
 task wrapper(type: Wrapper) {
     gradleVersion = '4.5.1'
 }
+
